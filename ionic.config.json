@@ -1,0 +1,7 @@
+{
+  "name": "midterm",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
