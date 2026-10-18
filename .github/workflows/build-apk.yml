@@ -60,14 +60,13 @@ jobs:
       # 5. SETUP JAVA
       #
       # Android / Gradle requires Java.
-      # Java 17 is a safe choice for modern
-      # Android Gradle projects.
+      # The Capacitor Android project targets Java 21.
       # =====================================================
-      - name: Setup Java 17
+      - name: Setup Java 21
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '17'
+          java-version: '21'
           cache: gradle
 
 
